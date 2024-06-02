@@ -2,7 +2,7 @@
 
 ## 🧐 About
 
-Crie um aplicativo para o hotel Sunshine, ele tem 600 suítes e possui uma rotatividade média de 6000 hóspedes por ano. Eles fazem suas reservas antecipadamente, via web site. Durante o processo de reserva é solicitada a data de entrada e saída de sua hospedagem(Existem valores de hospedagem diferentes), bem como as suas preferências de acomodações. Utilize gerenciadores de estado.
+Crie um aplicativo para o hotel Sunshine. Ele possui 600 suítes e uma rotatividade média de 6.000 hóspedes por ano, que fazem suas reservas antecipadamente via website. Durante o processo de reserva, são solicitadas a data de entrada e saída da hospedagem (existem valores de hospedagem diferentes), bem como as preferências de acomodações dos hóspedes. Utilize gerenciadores de estado.
 
 ## 🏁 Cloning the Source
 
@@ -18,11 +18,11 @@ Para clonar e rodar este aplicativo, você vai precisar do [Git](https://git-scm
    ```
 2. Install packages
    ```sh
-    flutter pub get
+   flutter pub get
    ```
 3. Run the app
    ```sh
-    flutter run
+   flutter run
    ```
 
 ## ⛏️ Built Using
