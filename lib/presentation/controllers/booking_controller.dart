@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:hotel_sunshine/data/datasources/database_helper.dart';
+import 'package:hotel_sunshine/data/model/reservation_model.dart';
 import 'package:intl/intl.dart';
 
 class BookingController extends GetxController {
@@ -48,3 +50,11 @@ class BookingController extends GetxController {
     return 0.0;
   }
 
+  confirmBooking(ReservationModel reservation) {
+    DatabaseHelper database = DatabaseHelper();
+
+    database.insertReservation(reservation);
+
+    Get.snackbar("Aviso", "Cadastrado com Sucesso");
+  }
+}
