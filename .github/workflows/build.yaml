@@ -40,5 +40,4 @@ jobs:
           name: Release ${{ github.ref }}
           artifacts: "build/app/outputs/apk/release/*.apk"
           token: ${{ secrets.TOKEN }}
-          body: |
-            This is an automated release containing the latest build of the APK.
+          generateReleaseNotes: true
