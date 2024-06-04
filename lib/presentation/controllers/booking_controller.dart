@@ -3,12 +3,6 @@ import 'package:get/get.dart';
 import 'package:intl/intl.dart';
 
 class BookingController extends GetxController {
-  final dateNow = DateTime.now();
-  DateFormat dateFormat = DateFormat("dd/MM/yyyy");
-  Rxn<DateTimeRange> dateSelected = Rxn<DateTimeRange>();
-  final RxString dateStart = "".obs;
-  final RxString dateEnd = "".obs;
-
   final List<String> suites = [
     "Econômica",
     "Padrão",
@@ -16,7 +10,12 @@ class BookingController extends GetxController {
     "Super Luxo",
     "Presidencial"
   ];
+  final dateNow = DateTime.now();
+  DateFormat dateFormat = DateFormat("dd/MM/yyyy");
 
+  Rxn<DateTimeRange> dateSelected = Rxn<DateTimeRange>();
+  final RxString dateStart = "".obs;
+  final RxString dateEnd = "".obs;
   final suiteSelected = "Econômica".obs;
 
   void setDate(DateTimeRange date) {
@@ -49,4 +48,3 @@ class BookingController extends GetxController {
     return 0.0;
   }
 
-}
