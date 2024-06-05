@@ -35,3 +35,5 @@ Para clonar e rodar este aplicativo, você vai precisar do [Git](https://git-scm
 ## ✍️ Author
 
 - [@ericksantos12](https://github.com/ericksantos12)
+- [@GabrielleCGNeves](https://github.com/GabrielleCGNeves)
+
